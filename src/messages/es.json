@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "title": "Mi Hotel Acapulco",
+    "description": "Disfruta de una estadía inolvidable frente al mar en el corazón de Acapulco.",
+    "ogDescription": "Descubre suites de lujo, experiencias gastronómicas y servicios exclusivos en Mi Hotel Acapulco."
+  },
+  "navigation": {
+    "rooms": "Habitaciones",
+    "services": "Servicios",
+    "reviews": "Reseñas",
+    "gallery": "Galería",
+    "location": "Ubicación",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Tu experiencia perfecta frente al mar",
+    "subtitle": "Disfruta de una estadía inolvidable en Acapulco",
+    "ctaPrimary": "Reservar ahora",
+    "ctaSecondary": "Descubrir suites",
+    "tagline": "Hotel boutique 5 estrellas en la bahía de Acapulco"
+  },
+  "languageSwitcher": {
+    "label": "Idioma",
+    "es": "Español",
+    "en": "English"
+  },
+  "themeToggle": {
+    "light": "Modo claro",
+    "dark": "Modo oscuro"
+  },
+  "rooms": {
+    "heading": "Suites diseñadas para tus sentidos",
+    "description": "Colección de habitaciones elegantes con vistas panorámicas, amenidades exclusivas y servicio personalizado.",
+    "viewDetails": "Ver detalles",
+    "close": "Cerrar",
+    "amenities": "Amenidades",
+    "capacity": "Capacidad",
+    "pricePerNight": "Precio por noche",
+    "bookNow": "Reservar esta suite",
+    "items": [
+      {
+        "id": "ocean-view-suite",
+        "name": "Suite Vista al Mar",
+        "price": "$420 USD",
+        "capacity": "Hasta 3 huéspedes",
+        "thumbnail": "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=900&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "highlights": [
+          "Terraza privada con camastros",
+          "Vista completa a la bahía",
+          "Servicio de mayordomo 24/7"
+        ],
+        "amenitiesList": [
+          "Cama King size",
+          "Ducha efecto lluvia",
+          "Jacuzzi con hidromasaje",
+          "Menú de almohadas",
+          "Mini bar premium"
+        ]
+      },
+      {
+        "id": "grand-dorado-penthouse",
+        "name": "Penthouse Dorado",
+        "price": "$690 USD",
+        "capacity": "Hasta 5 huéspedes",
+        "thumbnail": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?auto=format&fit=crop&w=900&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "highlights": [
+          "Piscina infinita privada",
+          "Terraza panorámica de 180°",
+          "Chef privado a solicitud"
+        ],
+        "amenitiesList": [
+          "Dos recámaras",
+          "Sala de cine",
+          "Wine cellar",
+          "Spa privado",
+          "Traslado aeropuerto"
+        ]
+      },
+      {
+        "id": "tropical-garden",
+        "name": "Suite Jardín Tropical",
+        "price": "$350 USD",
+        "capacity": "Hasta 4 huéspedes",
+        "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "highlights": [
+          "Jardín tropical privado",
+          "Hamaca artesanal",
+          "Zona lounge al aire libre"
+        ],
+        "amenitiesList": [
+          "Dos camas Queen",
+          "Lavanda aromaterapia",
+          "Ducha interior/exterior",
+          "Chromecast y sonido envolvente",
+          "Room service 24 horas"
+        ]
+      }
+    ]
+  },
+  "services": {
+    "heading": "Servicios que elevan tu estancia",
+    "description": "Cada detalle ha sido cuidadosamente seleccionado para que vivas la esencia del Pacífico mexicano con lujo, comodidad y calidez.",
+    "items": [
+      {
+        "icon": "UtensilsCrossed",
+        "title": "Desayuno gourmet incluido",
+        "description": "Buffet con productos locales, estación wellness y barista especializado."
+      },
+      {
+        "icon": "Wifi",
+        "title": "WiFi ultrarrápido",
+        "description": "Fibra óptica dedicada de 1Gbps para trabajo remoto y streaming sin interrupciones."
+      },
+      {
+        "icon": "Waves",
+        "title": "Alberca infinita",
+        "description": "Infinity pool climatizada con bar acuático y colchonetas flotantes."
+      },
+      {
+        "icon": "Car",
+        "title": "Estacionamiento seguro",
+        "description": "Valet parking 24/7 con cargadores para autos eléctricos."
+      },
+      {
+        "icon": "Martini",
+        "title": "Bar frente al mar",
+        "description": "Mixología de autor inspirada en Acapulco y DJ residente al atardecer."
+      },
+      {
+        "icon": "Wind",
+        "title": "Aire acondicionado premium",
+        "description": "Sistema inteligente con control individual y purificación del aire."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "Experiencias memorables",
+    "description": "Nuestros huéspedes comparten momentos inolvidables en Mi Hotel Acapulco.",
+    "items": [
+      {
+        "name": "María González",
+        "comment": "La vista de la bahía desde la suite es simplemente espectacular. El servicio fue impecable.",
+        "rating": 5
+      },
+      {
+        "name": "James Anderson",
+        "comment": "Ideal para trabajar remoto y luego disfrutar del atardecer en la alberca infinita.",
+        "rating": 5
+      },
+      {
+        "name": "Sofía Ramírez",
+        "comment": "Los detalles en la habitación y el desayuno gourmet hicieron nuestra estancia inolvidable.",
+        "rating": 4
+      }
+    ]
+  },
+  "gallery": {
+    "heading": "Postales desde Acapulco",
+    "description": "Capturas de nuestros espacios, experiencias y atardeceres que enamoran.",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Alberca infinita con vista al Pacífico"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Lobby moderno con iluminación cálida"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1455587734955-081b22074882?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Suite principal con terraza privada"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Playa privada con camastros"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Desayuno gourmet con vista al mar"
+      }
+    ]
+  },
+  "location": {
+    "heading": "Ubicación",
+    "description": "En el corazón de Acapulco Dorado, a minutos de las mejores playas y atracciones.",
+    "address": "Av. Costera Miguel Alemán 1234, Acapulco, Guerrero",
+    "mapCta": "Cómo llegar",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.300508130708!2d-99.88047802488765!3d16.848013120746032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ca585902dc63db%3A0x497bb7d5005c45e7!2sAcapulco%20Guerrero!5e0!3m2!1ses-419!2smx!4v1700000000000!5m2!1ses-419!2smx"
+  },
+  "contact": {
+    "heading": "Reserva tu próxima escapada",
+    "description": "Compártenos los detalles de tu viaje y nuestro equipo de concierge te contactará en menos de 24 horas.",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "dates": "Fechas de estancia",
+      "room": "Tipo de habitación",
+      "message": "Mensaje adicional",
+      "submit": "Enviar solicitud",
+      "roomPlaceholder": "Selecciona una suite",
+      "messagePlaceholder": "Cuéntanos si celebras algo especial o necesitas un servicio adicional"
+    },
+    "quickActions": {
+      "call": "Llamada rápida",
+      "whatsapp": "WhatsApp"
+    },
+    "disclaimer": "Nos comprometemos a proteger tu información. Consulta nuestro aviso de privacidad."
+  },
+  "footer": {
+    "legal": "Todos los derechos reservados",
+    "privacy": "Aviso de privacidad",
+    "terms": "Términos y condiciones",
+    "social": "Síguenos",
+    "madeBy": "Diseñado con pasión en Acapulco"
+  }
+}

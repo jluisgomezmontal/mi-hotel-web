@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "title": "Mi Hotel Acapulco",
+    "description": "Enjoy an unforgettable beachfront stay in the heart of Acapulco.",
+    "ogDescription": "Discover luxury suites, gourmet dining, and exclusive services at Mi Hotel Acapulco."
+  },
+  "navigation": {
+    "rooms": "Rooms",
+    "services": "Services",
+    "reviews": "Reviews",
+    "gallery": "Gallery",
+    "location": "Location",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Your perfect oceanfront experience",
+    "subtitle": "Enjoy an unforgettable stay in Acapulco",
+    "ctaPrimary": "Book now",
+    "ctaSecondary": "Discover suites",
+    "tagline": "5-star boutique hotel on Acapulco Bay"
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "es": "Español",
+    "en": "English"
+  },
+  "themeToggle": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "rooms": {
+    "heading": "Suites designed for your senses",
+    "description": "Collection of elegant rooms with panoramic views, exclusive amenities, and personalized service.",
+    "viewDetails": "View details",
+    "close": "Close",
+    "amenities": "Amenities",
+    "capacity": "Capacity",
+    "pricePerNight": "Price per night",
+    "bookNow": "Book this suite",
+    "items": [
+      {
+        "id": "ocean-view-suite",
+        "name": "Ocean View Suite",
+        "price": "$420 USD",
+        "capacity": "Up to 3 guests",
+        "thumbnail": "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=900&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "highlights": [
+          "Private terrace with lounge chairs",
+          "Full bay view",
+          "24/7 butler service"
+        ],
+        "amenitiesList": [
+          "King size bed",
+          "Rainfall shower",
+          "Jacuzzi with hydromassage",
+          "Pillow menu",
+          "Premium minibar"
+        ]
+      },
+      {
+        "id": "grand-dorado-penthouse",
+        "name": "Grand Dorado Penthouse",
+        "price": "$690 USD",
+        "capacity": "Up to 5 guests",
+        "thumbnail": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?auto=format&fit=crop&w=900&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "highlights": [
+          "Private infinity pool",
+          "180° panoramic terrace",
+          "Private chef on request"
+        ],
+        "amenitiesList": [
+          "Two bedrooms",
+          "Home theater",
+          "Wine cellar",
+          "Private spa",
+          "Airport transfer"
+        ]
+      },
+      {
+        "id": "tropical-garden",
+        "name": "Tropical Garden Suite",
+        "price": "$350 USD",
+        "capacity": "Up to 4 guests",
+        "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "highlights": [
+          "Private tropical garden",
+          "Handcrafted hammock",
+          "Outdoor lounge area"
+        ],
+        "amenitiesList": [
+          "Two Queen beds",
+          "Lavender aromatherapy",
+          "Indoor/outdoor shower",
+          "Chromecast and surround sound",
+          "24-hour room service"
+        ]
+      }
+    ]
+  },
+  "services": {
+    "heading": "Services that elevate your stay",
+    "description": "Every detail has been carefully selected so you can experience the essence of the Mexican Pacific with luxury, comfort, and warmth.",
+    "items": [
+      {
+        "icon": "UtensilsCrossed",
+        "title": "Gourmet breakfast included",
+        "description": "Buffet with local products, wellness station, and specialized barista."
+      },
+      {
+        "icon": "Wifi",
+        "title": "Ultra-fast WiFi",
+        "description": "Dedicated 1Gbps fiber optic for remote work and seamless streaming."
+      },
+      {
+        "icon": "Waves",
+        "title": "Infinity pool",
+        "description": "Heated infinity pool with swim-up bar and floating loungers."
+      },
+      {
+        "icon": "Car",
+        "title": "Secure parking",
+        "description": "24/7 valet parking with electric car charging stations."
+      },
+      {
+        "icon": "Martini",
+        "title": "Beachfront bar",
+        "description": "Signature mixology inspired by Acapulco and resident DJ at sunset."
+      },
+      {
+        "icon": "Wind",
+        "title": "Premium air conditioning",
+        "description": "Smart system with individual control and air purification."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "Memorable experiences",
+    "description": "Our guests share unforgettable moments at Mi Hotel Acapulco.",
+    "items": [
+      {
+        "name": "María González",
+        "comment": "The view of the bay from the suite is simply spectacular. The service was impeccable.",
+        "rating": 5
+      },
+      {
+        "name": "James Anderson",
+        "comment": "Perfect for remote work and then enjoying the sunset at the infinity pool.",
+        "rating": 5
+      },
+      {
+        "name": "Sofía Ramírez",
+        "comment": "The room details and gourmet breakfast made our stay unforgettable.",
+        "rating": 4
+      }
+    ]
+  },
+  "gallery": {
+    "heading": "Postcards from Acapulco",
+    "description": "Captures of our spaces, experiences, and sunsets that captivate.",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Infinity pool with Pacific view"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Modern lobby with warm lighting"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1455587734955-081b22074882?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Master suite with private terrace"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Private beach with lounge chairs"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Gourmet breakfast with ocean view"
+      }
+    ]
+  },
+  "location": {
+    "heading": "Location",
+    "description": "In the heart of Acapulco Dorado, minutes from the best beaches and attractions.",
+    "address": "Av. Costera Miguel Alemán 1234, Acapulco, Guerrero",
+    "mapCta": "Get directions",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.300508130708!2d-99.88047802488765!3d16.848013120746032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ca585902dc63db%3A0x497bb7d5005c45e7!2sAcapulco%20Guerrero!5e0!3m2!1sen!2smx!4v1700000000000!5m2!1sen!2smx"
+  },
+  "contact": {
+    "heading": "Book your next getaway",
+    "description": "Share your travel details and our concierge team will contact you within 24 hours.",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone",
+      "dates": "Stay dates",
+      "room": "Room type",
+      "message": "Additional message",
+      "submit": "Send request",
+      "roomPlaceholder": "Select a suite",
+      "messagePlaceholder": "Tell us if you're celebrating something special or need additional services"
+    },
+    "quickActions": {
+      "call": "Quick call",
+      "whatsapp": "WhatsApp"
+    },
+    "disclaimer": "We are committed to protecting your information. See our privacy policy."
+  },
+  "footer": {
+    "legal": "All rights reserved",
+    "privacy": "Privacy policy",
+    "terms": "Terms and conditions",
+    "social": "Follow us",
+    "madeBy": "Designed with passion in Acapulco"
+  }
+}
