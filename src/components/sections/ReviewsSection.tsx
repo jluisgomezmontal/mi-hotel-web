@@ -70,7 +70,7 @@ export function ReviewsSection() {
                     </div>
 
                     <p className="mb-6 text-base leading-relaxed italic">
-                      "{review.comment}"
+                      &ldquo;{review.comment}&rdquo;
                     </p>
 
                     <div className="flex items-center gap-3">
