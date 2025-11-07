@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
 import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
@@ -77,17 +76,14 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale?: string };
+  params: Promise<{ locale: string }>;
 }>) {
-  const localeParam = params?.locale ?? defaultLocale;
-  const isValidLocale = locales.includes(localeParam as Locale);
-  if (!isValidLocale) {
-    notFound();
-  }
-
-  const locale = localeParam as Locale;
+  const { locale: localeParam } = await params;
+  const locale = locales.includes(localeParam as Locale)
+    ? (localeParam as Locale)
+    : defaultLocale;
   setRequestLocale(locale);
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
 
   return (
     <html
