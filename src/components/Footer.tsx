@@ -7,7 +7,11 @@ import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from "lucide-react"
 export function Footer() {
   const t = useTranslations("footer");
   const navT = useTranslations("navigation");
-  const currentYear = new Date().getFullYear();
+  const [currentYear, setCurrentYear] = React.useState(2025);
+
+  React.useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
 
   const socialLinks = [
     { icon: Facebook, href: "https://facebook.com", label: "Facebook" },

@@ -6,8 +6,13 @@ import { useTheme } from "next-themes";
 import { useTranslations } from "next-intl";
 
 import { Button } from "@/components/ui/Button";
+import { cn } from "@/lib/utils";
 
-export function ThemeToggle() {
+type ThemeToggleProps = {
+  className?: string;
+};
+
+export function ThemeToggle({ className }: ThemeToggleProps) {
   const { theme, setTheme, resolvedTheme } = useTheme();
   const t = useTranslations("themeToggle");
   const [mounted, setMounted] = React.useState(false);
@@ -34,7 +39,7 @@ export function ThemeToggle() {
       variant="ghost"
       size="icon"
       onClick={() => setTheme(isLight ? "dark" : "light")}
-      className="h-10 w-10"
+      className={cn("h-10 w-10", className)}
       aria-label={label}
     >
       <span className="sr-only">{label}</span>

@@ -44,9 +44,10 @@ export function Navbar() {
       className={cn(
         "fixed top-0 z-40 w-full transition-all duration-300",
         isScrolled
-          ? "glass-card border-b backdrop-blur-xl"
-          : "bg-transparent"
+          ? "glass-card border-b text-foreground backdrop-blur-xl"
+          : "bg-transparent text-white"
       )}
+      suppressHydrationWarning
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
@@ -62,7 +63,12 @@ export function Navbar() {
             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground">
               <span className="text-xl font-bold">M</span>
             </div>
-            <span className="hidden font-display text-xl font-semibold sm:block">
+            <span
+              className={cn(
+                "hidden font-display text-xl font-semibold sm:block",
+                isScrolled ? "text-foreground" : "text-white"
+              )}
+            >
               Mi Hotel Acapulco
             </span>
           </a>
@@ -73,7 +79,12 @@ export function Navbar() {
               <button
                 key={item.href}
                 onClick={() => scrollToSection(item.href)}
-                className="rounded-full px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+                className={cn(
+                  "rounded-full px-4 py-2 text-sm font-medium transition-colors",
+                  isScrolled
+                    ? "text-foreground hover:bg-accent hover:text-accent-foreground"
+                    : "text-white hover:bg-white/10"
+                )}
               >
                 {item.label}
               </button>
@@ -82,8 +93,20 @@ export function Navbar() {
 
           {/* Actions */}
           <div className="flex items-center gap-2">
-            <LanguageSwitcher />
-            <ThemeToggle />
+            <LanguageSwitcher
+              className={cn(
+                isScrolled
+                  ? "text-foreground hover:bg-foreground/10"
+                  : "text-white hover:bg-white/10"
+              )}
+            />
+            <ThemeToggle
+              className={cn(
+                isScrolled
+                  ? "text-foreground hover:bg-foreground/10"
+                  : "text-white hover:bg-white/10"
+              )}
+            />
             <Button
               variant="ghost"
               size="icon"
