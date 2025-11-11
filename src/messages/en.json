@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Mi Hotel Acapulco",
-    "description": "Enjoy an unforgettable beachfront stay in the heart of Acapulco.",
-    "ogDescription": "Discover luxury suites, gourmet dining, and exclusive services at Mi Hotel Acapulco."
+    "title": "Hotels in San Marcos Guerrero and Acapulco | Mi Hotel",
+    "description": "Stay at Mi Hotel, a boutique beachfront hideaway in Acapulco with curated getaways to San Marcos, Guerrero.",
+    "ogDescription": "Reserve luxury suites, savor signature cuisine, and plan day trips to San Marcos Guerrero from Mi Hotel Acapulco."
   },
   "navigation": {
     "rooms": "Rooms",
@@ -13,11 +13,12 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Your perfect oceanfront experience",
-    "subtitle": "Enjoy an unforgettable stay in Acapulco",
+    "title": "Luxury hotels in Acapulco with escapes to San Marcos Guerrero",
+    "subtitle": "Explore oceanfront suites, concierge service, and curated transfers to San Marcos, Guerrero.",
     "ctaPrimary": "Book now",
-    "ctaSecondary": "Discover suites",
-    "tagline": "5-star boutique hotel on Acapulco Bay"
+    "ctaSecondary": "View Acapulco suites",
+    "ctaSanMarcos": "Explore San Marcos",
+    "tagline": "5-star boutique hotel in Acapulco and San Marcos"
   },
   "languageSwitcher": {
     "label": "Language",

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Mi Hotel Acapulco",
-    "description": "Disfruta de una estadía inolvidable frente al mar en el corazón de Acapulco.",
-    "ogDescription": "Descubre suites de lujo, experiencias gastronómicas y servicios exclusivos en Mi Hotel Acapulco."
+    "title": "Hoteles en San Marcos Guerrero y Acapulco | Mi Hotel",
+    "description": "Hospédate en Mi Hotel, un hotel boutique frente al mar en Acapulco con experiencias personalizadas hacia San Marcos, Guerrero.",
+    "ogDescription": "Reserva suites de lujo, vive gastronomía de autor y agenda escapadas a San Marcos Guerrero desde Mi Hotel Acapulco."
   },
   "navigation": {
     "rooms": "Habitaciones",
@@ -13,11 +13,12 @@
     "contact": "Contacto"
   },
   "hero": {
-    "title": "Tu experiencia perfecta frente al mar",
-    "subtitle": "Disfruta de una estadía inolvidable en Acapulco",
+    "title": "Hoteles de lujo en Acapulco con escapes a San Marcos Guerrero",
+    "subtitle": "Descubre suites frente al mar, concierge personalizado y traslados directos a San Marcos, Guerrero.",
     "ctaPrimary": "Reservar ahora",
-    "ctaSecondary": "Descubrir suites",
-    "tagline": "Hotel boutique 5 estrellas en la bahía de Acapulco"
+    "ctaSecondary": "Ver suites en Acapulco",
+    "ctaSanMarcos": "Explorar San Marcos",
+    "tagline": "Hotel boutique 5 estrellas en Acapulco y San Marcos"
   },
   "languageSwitcher": {
     "label": "Idioma",
